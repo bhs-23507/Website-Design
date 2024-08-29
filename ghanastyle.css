@@ -37,13 +37,21 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+a:hover {
+    background-color: bisque;
+    color:darkcyan;
+    border: 5px solid bisque;
+    padding: 5px;
+    border-radius: 7px;;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
 }
 
-.novel {
+.division {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
