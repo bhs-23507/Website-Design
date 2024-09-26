@@ -15,7 +15,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    position: cover
+    text-align:center;
 }
 
 header {
@@ -38,9 +38,9 @@ section {
 }
 
 a:hover {
-    background-color: bisque;
+    background-color: #f0f0f0;
     color:darkcyan;
-    border: 5px solid bisque;
+    border: 5px solid darkcyan;
     padding: 5px;
     border-radius: 7px;;
 }
@@ -48,10 +48,11 @@ a:hover {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.division {
+
+.novel {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
