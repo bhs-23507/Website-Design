@@ -51,30 +51,46 @@ three-column img {
     margin-left: 10px;
 }
 .Cape_Coast_Castle {
-    background-color: lightgreen;
+    background-color: rgba(144, 238, 144, 0.952);
     overflow: hidden;
+    border: 3px double rgb(184, 218, 32);
 }
 
+.intro {
+    color: black;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 3px double rgb(184, 218, 32);
+    background-color:rgba(166, 238, 144, 0.952);
+}
+
+.history {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
 .ancient {
-    background-color: rgba(255, 217, 0, 0.65);
+    background-color: rgba(255, 217, 0, 0.6);
     border: 3px double goldenrod;
 }
 
 .pre-colonial { 
-    background-color: rgba(255, 217, 0, 0.582);
+    background-color: rgba(255, 217, 0, 0.58);
     border: 3px double goldenrod;
 }
 
 .colonial {
-    background-color: rgba(255, 255, 0, 0.6);
+    background-color: rgba(255, 217, 0, 0.56);
     border: 3px double goldenrod;
 }
 
-.intro {
-    margin-bottom: 10px;
-    color: black;
-    margin-left: 10px;
-    margin-right: 10px;
+.pic {
+    color: blueviolet;
+    font-size: 22px;
+    text-align:left ;
+    margin-left: 8px;
 }
 
 .tourism {
